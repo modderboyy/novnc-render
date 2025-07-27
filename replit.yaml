@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: linux-gui
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PASSWORD
+        value: modderboy
